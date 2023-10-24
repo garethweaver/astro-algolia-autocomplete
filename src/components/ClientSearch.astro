@@ -1,0 +1,28 @@
+---
+import Search from './Search.jsx'
+---
+
+<div class="wrapper">
+  <h1>Server render fake input</h1>
+  <div className="aa-Autocomplete">
+    <!--
+      this is a fake input rendered on the server which has the appearance of
+      being the agolia input before it has been initialized.
+    -->
+    <input className="aa-Input" style={{ background: 'red' }} />
+  </div>
+  <div class="react">
+    <Search title="Server render fake input" client:only />
+  </div>
+</div>
+<style>
+  :global(h1) { margin-top: 0}
+  .wrapper {
+    position: relative;
+  }
+  .react {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+</style>

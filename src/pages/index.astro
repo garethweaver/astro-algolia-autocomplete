@@ -1,0 +1,31 @@
+---
+import Search from '../components/Search.jsx'
+import ClientSearch from '../components/ClientSearch.astro'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<h1>Astro</h1>
+		<!--
+			`yarn build` will cause this component to error with the following:
+
+			Named export 'createAutocomplete' not found. The requested module
+			'@algolia/autocomplete-core' is a CommonJS module, which may not support
+			all module.exports as named exports.
+		-->
+		<Search title="Server render" client:idle />
+		<!--
+			These two components will both build with `yarn build` as they have
+			client:only agolia inputs.
+		-->
+		<ClientSearch title="Hot replace" />
+		<Search title="Client render" client:only />
+	</body>
+</html>
