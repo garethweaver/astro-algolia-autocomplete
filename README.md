@@ -1,9 +1,8 @@
-# Demonstrates the issue with server rendering and Algolia Autocomplete Astro
+# Demonstrates the issue with Astro server rendering and Algolia Autocomplete
 
 ```
 yarn dev # start dev server with all 3 components rendering
 yarn build # will error if the server only search input is present
-
 ```
 To get yarn build to work slash out the `Server render` component
 
