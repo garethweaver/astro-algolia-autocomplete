@@ -2,32 +2,29 @@
 # yarn lockfile v1
 
 
-"@algolia/autocomplete-core@^1.11.1":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.11.1.tgz#73dce6a65430a872cd9474babf052dcb3ca1d6fe"
-  integrity sha512-C4ZaUbwNHOkbXM+vsUpx9AYhfLRCcku4tjn64Dr6/WjBhD1gv/WcI/GlvTc7QU53xPubNm8pfnfFAjRogEdnNQ==
+"@algolia/autocomplete-core@https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-core":
+  version "1.12.0"
+  resolved "https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-core#1e71de0a634b6cfa84dc963635b678e6f80d8f23"
   dependencies:
-    "@algolia/autocomplete-plugin-algolia-insights" "1.11.1"
-    "@algolia/autocomplete-shared" "1.11.1"
+    "@algolia/autocomplete-plugin-algolia-insights" "https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-plugin-algolia-insights"
+    "@algolia/autocomplete-shared" "https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-shared"
 
-"@algolia/autocomplete-plugin-algolia-insights@1.11.1":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-plugin-algolia-insights/-/autocomplete-plugin-algolia-insights-1.11.1.tgz#46e7d7c75a10e33ca6310ecc920a19a2fed13570"
-  integrity sha512-Ajaav4irJrbwLuQ0hYuaZlUH1pY7iobXSFfQsHFSQ+m2Q8r/h1GtkaiRCpcfnwO8CURdcD3RFMc0pClOPzmJeA==
+"@algolia/autocomplete-plugin-algolia-insights@https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-plugin-algolia-insights":
+  version "1.12.0"
+  resolved "https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-plugin-algolia-insights#4f11d4c559911a11ef5ccc04fc3248a0ccb2e04d"
   dependencies:
-    "@algolia/autocomplete-shared" "1.11.1"
+    "@algolia/autocomplete-shared" "https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-shared"
 
-"@algolia/autocomplete-preset-algolia@^1.11.1":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.11.1.tgz#52780e7ccfe84c3b0c6fa403e3555b289ed589e5"
-  integrity sha512-iso7s41eeywyIwzC7cBMrK0kbWd3J/lKyZceaH0KteWyqoQAeNgNgAfbQsdp2m+bXFglOH4Hklr/0Y5SO8HTlg==
+"@algolia/autocomplete-preset-algolia@https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-preset-algolia":
+  version "1.12.0"
+  resolved "https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-preset-algolia#5e2fa00484941510d7136926315dc2c245c04930"
   dependencies:
-    "@algolia/autocomplete-shared" "1.11.1"
+    "@algolia/autocomplete-shared" "https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-shared"
 
-"@algolia/autocomplete-shared@1.11.1":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.11.1.tgz#ce5efbc94376954ea78848b0d45b3254e91ce259"
-  integrity sha512-bbX7dk41aAy7jlgaJTH/Suv7moGvmkudrrF2ECuMQUrWvl/xGfrj9ZYpLcMsT7TcTYf5SPtK5awXJnpQ4PTKEg==
+"@algolia/autocomplete-shared@https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-shared":
+  version "1.12.0"
+  uid e6c56b25352500d808062f4f0826fa1928f5b142
+  resolved "https://pkg.csb.dev/algolia/autocomplete/commit/39718305/@algolia/autocomplete-shared#e6c56b25352500d808062f4f0826fa1928f5b142"
 
 "@algolia/cache-browser-local-storage@4.20.0":
   version "4.20.0"
